@@ -1,3 +1,6 @@
+[![](https://jitpack.io/v/GonzaloGaleano/image-picker-view.svg)](https://jitpack.io/#GonzaloGaleano/image-picker-view)
+
+
 # Kotlin-Android - Image-Picker-View
 Componente que facilita el proceso de solicitar permisos, obtener la imagen, ruta de imagen, bitmap, base64 simplificando así el código a utilizar en el activity permitiendo utilizarse más de una instancia en la misma vista.
 
@@ -8,6 +11,31 @@ Componente que facilita el proceso de solicitar permisos, obtener la imagen, rut
 ![foo](https://raw.githubusercontent.com/GonzaloGaleano/Kotlin-Image-Picker-View/master/docs/image_zoom_editor.jpeg "Visualizar y editar rotación")
 ![foo](https://raw.githubusercontent.com/GonzaloGaleano/Kotlin-Image-Picker-View/master/docs/discart_prompt.jpeg "Preguntar antes de descartar")
 
+
+## Implementar librería
+
+[https://jitpack.io/#GonzaloGaleano/image-picker-view/0.1.0]
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+```
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+Step 2. Add the dependency
+
+```
+dependencies {
+    implementation 'com.github.GonzaloGaleano:image-picker-view:0.1.0'
+}
+```
 
 ## Primero que nada, a configurar el Manifest
 
