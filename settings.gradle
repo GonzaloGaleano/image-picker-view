@@ -1,0 +1,3 @@
+include ':imagepickerview'
+include ':app'
+rootProject.name = "Picking Image"

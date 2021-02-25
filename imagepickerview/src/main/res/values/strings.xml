@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="save">Guardar</string>
+    <string name="rotate">Rotar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="discart">Descartar</string>
+    <string name="view_image_title">Visualizar imagen</string>
+</resources>
