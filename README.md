@@ -1,8 +1,8 @@
 [![](https://jitpack.io/v/GonzaloGaleano/image-picker-view.svg)](https://jitpack.io/#GonzaloGaleano/image-picker-view)
 
 
-# Kotlin-Android - Image-Picker-View
-Componente que facilita el proceso de solicitar permisos, obtener la imagen, ruta de imagen, bitmap, base64 simplificando así el código a utilizar en el activity permitiendo utilizarse más de una instancia en la misma vista.
+# Android - Kotlin - Image-Picker-View
+Componente que facilita el proceso de solicitar permisos, obtener las imágenes, ruta de imagen, bitmap y base64 simplificando así el código a utilizar en el activity permitiendo utilizarse más de una instancia en la misma vista.
 
 ## Capturas de Pantallas
 
@@ -61,7 +61,7 @@ Se puede incluir más de una instancia en la vista diferenciados por sus IDs:
 
 ## El Controlador
 
-Para utilizar en el Activity se debe instanciar se debe conectar cada instancia de la vista con una variable:
+Para utilizar en el Activity se debe instanciar y conectar cada instancia de la vista con una variable:
 
 ```
 private lateinit var imagePickerView1: ImagePickerView
@@ -77,7 +77,7 @@ imagePickerView2 = findViewById( R.id.myImagePicker2 )
 
 ## Escuchando los resultados
 
-El manejo de permisos queda delegado y manejada por la clase ImagePickerView para reducir escritura y evitar código duplacdo.
+El manejo de permisos queda delegado y es manejado por la clase ImagePickerView para reducir escritura y evitar código duplacdo.
 
 ### onRequestPermissionsResult
 
